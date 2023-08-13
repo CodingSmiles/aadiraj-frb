@@ -1,0 +1,62 @@
+[debug] [2023-08-13T12:35:08.281Z] ----------------------------------------------------------------------
+[debug] [2023-08-13T12:35:08.290Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2023-08-13T12:35:08.292Z] CLI Version:   12.4.7
+[debug] [2023-08-13T12:35:08.293Z] Platform:      linux
+[debug] [2023-08-13T12:35:08.294Z] Node Version:  v18.17.1
+[debug] [2023-08-13T12:35:08.296Z] Time:          Sun Aug 13 2023 18:05:08 GMT+0530 (India Standard Time)
+[debug] [2023-08-13T12:35:08.296Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-13T12:35:08.314Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-13T12:35:08.316Z] > authorizing via signed-in user (aadirajanil726@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/linux/Desktop/aadiraj-main
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-13T12:35:14.053Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-13T12:35:15.292Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-08-13T12:35:15.293Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project aadiraj-a (aadiraj-a) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] ✔  Wrote //404.html 
+[debug] [2023-08-13T12:35:32.639Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-08-13T12:35:32.755Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-08-13T12:35:32.756Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.1.0","browserURL":"https://www.gstatic.com/firebasejs/10.1.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.1.0/firebase.tgz"},"live":{"version":"10.1","browserURL":"https://www.gstatic.com/firebasejs/live/10.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.1.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.1.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.1.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.1.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.1.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.1.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.1.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.1.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.1.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of //index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /home/linux/Desktop/aadiraj-main is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=192118471&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-08-13T12:35:58.749Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-08-13T12:35:58.750Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-08-13T12:35:59.106Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-08-13T12:35:59.107Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-08-13T12:35:59.148Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-08-13T12:35:59.522Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-08-13T12:35:59.523Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"CodingSmiles","id":95686935,"node_id":"U_kgDOBbQRFw","avatar_url":"https://avatars.githubusercontent.com/u/95686935?v=4","gravatar_id":"","url":"https://api.github.com/users/CodingSmiles","html_url":"https://github.com/CodingSmiles","followers_url":"https://api.github.com/users/CodingSmiles/followers","following_url":"https://api.github.com/users/CodingSmiles/following{/other_user}","gists_url":"https://api.github.com/users/CodingSmiles/gists{/gist_id}","starred_url":"https://api.github.com/users/CodingSmiles/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CodingSmiles/subscriptions","organizations_url":"https://api.github.com/users/CodingSmiles/orgs","repos_url":"https://api.github.com/users/CodingSmiles/repos","events_url":"https://api.github.com/users/CodingSmiles/events{/privacy}","received_events_url":"https://api.github.com/users/CodingSmiles/received_events","type":"User","site_admin":false,"name":"CodingSmiles","company":null,"blog":"https://theconquest.substack.com/","location":"Mumbai, India","email":null,"hireable":null,"bio":"Founder of SpaceBird Aerospace with @chess3200 who is a founder. I do app dev (Flutter) along with C++ embedded and loads of other programming languages.","twitter_username":"SpaceBirdAero","public_repos":15,"public_gists":0,"followers":0,"following":1,"created_at":"2021-12-07T10:42:21Z","updated_at":"2023-08-13T12:32:30Z","private_gists":0,"total_private_repos":12,"owned_private_repos":12,"disk_usage":22485,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as CodingSmiles 
+[info] 
